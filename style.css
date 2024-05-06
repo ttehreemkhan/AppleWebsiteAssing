@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.container {
+  margin: auto;
+  padding: 5px;
+  display: flex;
+  background: rgb(202, 197, 197);
+  color: rgb(32, 20, 20);
+  justify-content: space-between;
+}
+li {
+  display: inline;
+}
+
+nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+nav ul li a {
+  padding: 30px 20px;
+  text-decoration: none;
+  list-style: none;
+  color: rgb(16, 13, 13);
+}
+.menu {
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  opacity: 0;
+  visibility: show;
+  left: 0px;
+  box-shadow: 0px 10px 2px 3px rgb(24, 109, 149);
+  transition: 2s;
+}
+nav > ul > li:hover.menu {
+  opacity: 1;
+  visibility: visible;
+  top: 100%;
+}
+.mack {
+  text-align: center;
+  padding-top: 60px;
+}
+a {
+  padding: 20px;
+}
+li i {
+  padding-left: 20px;
+}
+div img {
+  width: 60%;
+  height: 50%;
+}
+.pro {
+  background-color: black;
+  color: white;
+  padding: 50px;
+  text-align: center;
+}
+.visio {
+  color: black;
+  width: 100%;
+  height: 70vh;
+  background-image: url(images/viso.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+#v2 {
+  position: relative;
+
+  top: 400px;
+}
+.cemo {
+  opacity: 1;
+}
+.pic1 {
+  background-image: url(images/cemera3.webp);
+  padding: 25%;
+  float: left;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.pic2 {
+  background-image: url(images/watch.jpg);
+  padding: 25%;
+  float: right;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.pic3 {
+  background-image: url(images/ipad.jpg);
+  padding: 25%;
+  background-repeat: no-repeat;
+  float: left;
+}
+.pic4 {
+  background-image: url(images/airpods.jpg);
+  padding: 25%;
+  float: right;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+footer {
+  background-color: rgb(117, 106, 106);
+  color: rgb(255, 255, 255);
+  padding: 10%;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+footer li {
+  display: block;
+  padding: 10px;
+}
+ul{
+  font-size: 10px;
+}
+li a{
+  text-decoration: none;
+color: rgb(251, 255, 255);
+}
+.parent-div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 90px;
+}
